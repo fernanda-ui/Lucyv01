@@ -1,0 +1,66 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+/* Ocultar la barra de desplazamiento en Chrome, Edge y Safari */
+::-webkit-scrollbar {
+  width: 0px; 
+  height: 0px;
+}
+
+/* Ocultar la barra de desplazamiento en Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Permitir scroll */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: black;
+}
+
+/* Evita la selección de texto */
+h1, p{
+user-select: none; 
+-webkit-user-select: none; 
+-moz-user-select: none; 
+-ms-user-select: none; 
+
+}
+
+
+
+.fixed-image {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; 
+  width: 600px;
+}
+

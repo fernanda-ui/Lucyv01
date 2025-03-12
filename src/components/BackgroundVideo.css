@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.video-container {
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 15px; 
+ 
+  }
+  
+  .background-video {
+    width: 97%; 
+    height: 80%;
+    object-fit: cover; 
+    border-radius: 20px; 
+    filter: brightness(40%); 
+
+  }
+  
+  .text1 {
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+
+    
+}
+
+.text1 h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 100px;
+
+    }
+
+    .text1 p {
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 90px;
+        position: relative;
+        bottom: 140px;
+        left: 95px;
+    }
+
+
+.text2 {
+    width: 350px;
+    position: absolute;
+    top: 80%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    text-align: initial;
+}
+
+.text2 p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+    left: 95px;
+}
+
+.text3 {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    text-align: initial;
+}
+
+.text3 h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 50px;
+    position: relative;
+    bottom: 140px;
+    left: 95px;
+}
+
+.text3 p {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+    bottom: 180px;
+    left: 150px;
+}
+
+.Nombre-Lucy {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 256%;
+    top: 80%;
+  
+}
+
+.Nombre-Lucy h1 {
+    font-family: "Crushed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.Nombre-Lucy button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: transparent; 
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    
+
+}
+  
+  
