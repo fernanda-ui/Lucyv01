@@ -32,12 +32,12 @@ body {
   height: 0px;
 }
 
-/* Ocultar la barra de desplazamiento en Firefox */
+
 html {
   scrollbar-width: none;
 }
 
-/* Permitir scroll */
+
 body {
   overflow-y: auto;
   overflow-x: hidden;
@@ -52,7 +52,6 @@ user-select: none;
 -ms-user-select: none; 
 
 }
-
 
 
 .fixed-image {
