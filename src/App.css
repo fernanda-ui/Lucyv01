@@ -24,6 +24,10 @@ body {
   min-height: 100vh;
 }
 
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
 
 /* Ocultar la barra de desplazamiento en Chrome, Edge y Safari */
@@ -56,10 +60,57 @@ user-select: none;
 
 .fixed-image {
   position: fixed;
+  bottom: 0; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px; 
+  height: auto;
+  width: 600px;
+  transition: transform 0.3s ease-out;
+  z-index: 1000;
+}
+
+
+ .Nombre-Lucy {
+  position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10; 
-  width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
 }
+
+.Nombre-Lucy h1 {
+  font-family: "Crushed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  position: relative;
+  left: 30px;
+}
+
+.Nombre-Lucy button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: transparent; 
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; 
+  position: relative;
+  top: 31px;
+  right: 20px;
+  font-size: 20px; 
+  
+
+} 
+
+
 

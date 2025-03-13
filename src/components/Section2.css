@@ -1,10 +1,9 @@
 .section-two {
-background-color: rgb(113, 92, 71);
+background-color: black;
 position: relative;
 width: 100vw; 
 height: 100vh;
 display: flex;
 justify-content: center; 
-align-items: flex-start; 
-padding-top: 15px; 
+ 
 }

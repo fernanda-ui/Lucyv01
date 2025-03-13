@@ -11,8 +11,9 @@
     justify-content: center; 
     align-items: flex-start; 
     padding-top: 15px; 
- 
-  }
+    transition: all 0.3s ease-out;
+}
+
   
   .background-video {
     width: 97%; 
@@ -117,39 +118,3 @@
     bottom: 180px;
     left: 150px;
 }
-
-.Nombre-Lucy {
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 256%;
-    top: 80%;
-  
-}
-
-.Nombre-Lucy h1 {
-    font-family: "Crushed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45px;
-}
-
-.Nombre-Lucy button {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    height: 50px;
-    width: 150px;
-    border-radius: 50px;
-    background-color: transparent; 
-    border: 1px solid white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; 
-    position: relative;
-    top: 40px;
-    font-size: 20px;
-    
-
-}
-  
-  
