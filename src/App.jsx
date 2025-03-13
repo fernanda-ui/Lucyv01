@@ -16,9 +16,10 @@ function App() {
 
     gsap.fromTo(
       imgRef.current,
-      { opacity: 1, scale: 1 },
-      { opacity: 1, scale: 1, duration: 1.2, ease: "power3.out" }
+      { opacity: 1, scale: 1.2 }, 
+      { opacity: 1, scale: 1, duration: 1.2, ease: "power3.out" } 
     );
+    
 
     gsap.to(imgRef.current, {
       scale: 0.8,
