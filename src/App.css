@@ -24,22 +24,22 @@ body {
   min-height: 100vh;
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-}
+} */
 
 
-/* Ocultar la barra de desplazamiento en Chrome, Edge y Safari */
+/* Ocultar la barra de desplazamiento en Chrome, Edge y Safari
 ::-webkit-scrollbar {
   width: 0px; 
   height: 0px;
-}
+} */
 
 
-html {
+/* html {
   scrollbar-width: none;
-}
+} */
 
 
 body {

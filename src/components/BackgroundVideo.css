@@ -5,22 +5,25 @@
 
 .video-container {
     position: relative;
+    right: 10px;
     width: 100vw; 
     height: 100vh;
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
-    padding-top: 15px; 
+    padding-top: 20px; 
     transition: all 0.3s ease-out;
 }
 
   
   .background-video {
-    width: 97%; 
+    width: 95%; 
     height: 80%;
     object-fit: cover; 
     border-radius: 20px; 
     filter: brightness(40%); 
+    z-index: -1;
+
 
   }
   
@@ -78,10 +81,10 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    font-size: 20px;
+    font-size: 22px;
     position: relative;
-    bottom: 140px;
-    left: 95px;
+    bottom: 100px;
+    left: 100px;
 }
 
 .text3 {

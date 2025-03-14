@@ -11,7 +11,6 @@ const BackgroundVideo = () => {
   useEffect(() => {
     gsap.to(containerRef.current, {
       scale: 0.3,  
-      opacity: 0,  
       borderRadius: "50%", 
       filter: "blur(10px)", 
       transformOrigin: "center center", 

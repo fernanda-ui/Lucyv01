@@ -1,9 +1,95 @@
 .section-two {
 background-color: black;
-position: relative;
 width: 100vw; 
 height: 100vh;
 display: flex;
 justify-content: center; 
+align-items: center;
+position: relative;
+bottom: 60px;
+
  
+}
+.section-two {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 110px;
+  height: 80px;
+  border-radius: 50px;
+  border: none;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.1s ease-out;
+  border: 2px solid rgba(220, 215, 205, 0.5);
+
+}
+
+
+.btn img {
+  object-fit: contain;
+  border-radius: 50%;
+  transition: transform 0.1s ease-out;
+}
+
+
+
+.btn:nth-child(1) img {
+  width: 60px; 
+  position: relative;
+  top: 2px;
+ 
+}
+
+.btn:nth-child(1):hover img {
+  transform: scale(1.1);
+}
+
+.btn:nth-child(2) img {
+  width: 80px;
+  position: relative;
+  top: 8px;
+}
+
+.btn:nth-child(2):hover img {
+  transform: scale(1.1);
+}
+
+
+.btn:nth-child(3) img {
+  width: 130px;
+}
+
+.btn:nth-child(3):hover img {
+  transform: scale(1.1);
+}
+
+.btn:nth-child(4) img {
+  width: 90px; 
+  position: relative;
+  top: 10px;
+  right: 2px;
+}
+
+.btn:nth-child(4):hover img {
+  transform: scale(1.1);
 }
